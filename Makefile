@@ -1,11 +1,11 @@
 INCLUDES =
 ##### Change the following for your environment:
-COMPILE_OPTS =          -O $(INCLUDES) -I. 
+COMPILE_OPTS =          -g $(INCLUDES) -I. --std=c++11
 CPP =                   cpp
-CPLUSPLUS_COMPILER =    c++
+CPLUSPLUS_COMPILER =    g++
 CPLUSPLUS_FLAGS =       $(COMPILE_OPTS) -Wall
 OBJ =                   o
-LINK =                  c++ -o 
+LINK =                  g++ -o 
 LINK_OPTS =
 EXE =
 ##### End of variables to change
